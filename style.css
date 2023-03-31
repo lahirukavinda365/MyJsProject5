@@ -35,6 +35,7 @@ body{
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.4s;
 }
 
 .navbar ul{
@@ -52,4 +53,12 @@ body{
 
 .navbar ul li a:hover{
     color: red;
+}
+
+.navbar.active{
+    background-color: #000;
+}
+
+.navbar.active ul li a{
+    color: white;
 }
